@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+
+h3{
+    font-size: 25px !important;
+}
+
+btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation: animation-change infinite ease 60s;
+}
+
+@keyframes animation-change {
+    0%{
+        box-shadow: 1px 1px 38px red;
+    }
+    20%{
+        box-shadow: 1px 1px 38px greenyellow;
+    }
+    40%{
+        box-shadow: 1px 1px 38px green;
+    }
+    60%{
+        box-shadow: 1px 1px 38px orange;
+    }
+    80%{
+        box-shadow: 1px 1px 38px yellow;
+    }
+    100%{
+        box-shadow: 1px 1px 38px red;
+    }
+}
